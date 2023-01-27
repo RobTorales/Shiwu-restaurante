@@ -1,0 +1,50 @@
+
+@import'./base/variables';
+@import'./base/maps';
+@import'./base/mixin';
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width: 100%;
+    background-repeat:repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    grid-row: 10% 60% 10%;
+    header{
+        height: map-get($links, alto);
+        background:$fondo-rojo;
+        padding: map-get($links, relleno);
+        color: $cl-white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        h1{
+            font-family: "mifuente";
+            padding: $h1-relleno;
+            font-size: $h1-fsize;
+            nav{
+                @include h1nav(flex, row)
+            }
+        } 
+    }   
+}
+
+@font-face {
+    font-family: "mifuente";
+    src: url(../fonts/Chinatown-Champs-Italic.ttf);
+}
+
+
+
+  @import'./componentes/oldstyle.scss'
+
+  
+  

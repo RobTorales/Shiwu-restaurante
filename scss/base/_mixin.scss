@@ -1,0 +1,14 @@
+@mixin h1nav{
+    font-family: "mifuente";
+    padding: 20px;
+    font-size: 80px;
+}
+
+@mixin h1nav($flexible, $direction){
+    display:$flexible;
+    flex-direction:$direction;
+}
+nav{
+    @include h1nav(flex, row) 
+}
+  
