@@ -8,7 +8,5 @@
     display:$flexible;
     flex-direction:$direction;
 }
-nav{
-    @include h1nav(flex, row) 
-}
+
   
