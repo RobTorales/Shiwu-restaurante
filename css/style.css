@@ -134,7 +134,7 @@ footer {
 }
 /*index*/
 #index {
-  background-image: url(../img/imagen-home.jpg);
+  background-image: url(../imagen-home.jpg);
 }
 
 /*menu*/
@@ -171,7 +171,7 @@ dt {
 
 /*contacto*/
 #contacto {
-  background-image: url(../img/imagen-trabajo-con-nosotros.jpg);
+  background-image: url(../img/imagen-contacto.jpg);
 }
 
 iframe {
