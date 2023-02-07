@@ -1,0 +1,36 @@
+#reserva {
+    background-image: url(../img/imagen-reserva.jpg);
+  }
+  
+  .lista {
+    @include lista(rgba(5, 7, 12, 0.4),40px,100%)
+  }
+  
+  .items {
+    position: relative;
+    left: auto;
+    text-align: left;
+    padding: 30px;
+    list-style: none;
+    transition: 0.4s;
+  }
+  
+  .items:hover {
+    color: $cl-yellow;
+  }
+  
+  .boton {
+    border: solid;
+    padding: 20px;
+    width: 40%;
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+    transition: all 1.5s;
+  }
+  
+  .boton:hover {
+    transform: scale(1.2);
+  }

@@ -9,4 +9,50 @@
     flex-direction:$direction;
 }
 
-  
+@mixin lista{
+    background-color: rgba(5, 7, 12, 0.4);
+    padding: 40px;
+    width:100%;
+}
+
+@mixin lista($bg-cl, $padding, $width){
+    background-color:$bg-cl;
+    padding: $padding;
+    width: $width;
+}   
+
+@mixin body{
+    width: 100%;
+    background-repeat:repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    grid-row: 10% 60% 10%;
+}
+
+@mixin body($ancho, $bg-repeat, $bg-position, $bg-fixed, $bg-size, $txt-algn, $grid, $gr-row){
+    width: $ancho;
+    background-repeat:$bg-repeat;
+    background-position: $bg-position;
+    background-attachment: $bg-fixed;
+    background-size: $bg-size;
+    text-align: $txt-algn;
+    display: $grid;
+    grid-row: $gr-row;
+}
+
+@mixin text-area{
+    text-align: start;
+    height:150px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+@mixin text-area($txt-alg, $alto, $br-radius, $border){
+    text-align: $txt-alg;
+    height:$alto;
+    border-radius: $br-radius;
+    border: $border;
+}

@@ -1,0 +1,34 @@
+#contacto {
+    background-image: url(../img/imagen-contacto.jpg);
+  }
+  
+  iframe {
+    width: 100%;
+  }
+
+  input{
+    margin: 2%;
+    width: 50%;
+    height:40px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    font-family: $font-family;
+  }
+
+  textarea{
+    text-align: start;
+    height:150px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    font-family: $font-family
+  }
+  
+  .enviar{
+    transition: 0.4s;
+    margin: 2%;
+  }
+
+  .enviar:hover{
+    background-color: $fondo-rojo;
+    color: $cl-white;
+  }

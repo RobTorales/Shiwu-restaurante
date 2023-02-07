@@ -1,3 +1,28 @@
 nav{
     @include h1nav(flex,row)
 }
+
+.nav__a {
+    color: $cl-white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 10px;
+    transition: 0.4s;
+  }
+  
+  .mostrar-menu {
+    font-size: map-get($links, 30px);
+    cursor: map-get($links, pointer);
+    display: none;
+    transition:0.4s;
+    order:1;
+  }
+  
+  .nav__a:hover,
+  .mostrar-menu:hover {
+    color:$cl-yellow;
+  }
+
+  #check {
+    display: none;
+  }
