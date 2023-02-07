@@ -4,10 +4,10 @@ div {
   }
 
   .div__h2 {
-    color: black;
-    background-color: white;
+    color: $cl-black;
+    background-color: $cl-white;
     background-repeat: no-repeat;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: $font-family;
     padding: 20px;
     margin: 0px;
   }

@@ -3,7 +3,7 @@ header{
     background:$fondo-rojo;
     padding: map-get($links, relleno);
     color: $cl-white;
-    display: flex;
+    display: $flexible;
     justify-content: space-between;
     align-items: center;
     font-family: $font-family;

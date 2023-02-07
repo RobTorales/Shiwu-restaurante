@@ -111,6 +111,15 @@ footer {
   background-color: #B42404;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 1%;
+}
+
+.footer {
+  position: relative;
+  bottom: -305%;
+  background-color: #B42404;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /*responsive*/
@@ -159,7 +168,7 @@ dl {
 }
 
 dt {
-  padding: 5px;
+  padding: 5%;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }

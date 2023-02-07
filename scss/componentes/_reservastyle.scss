@@ -7,12 +7,7 @@
   }
   
   .items {
-    position: relative;
-    left: auto;
-    text-align: left;
-    padding: 30px;
-    list-style: none;
-    transition: 0.4s;
+    @include items( relative, auto, left, 30px, none, 0.4s)
   }
   
   .items:hover {
@@ -20,15 +15,7 @@
   }
   
   .boton {
-    border: solid;
-    padding: 20px;
-    width: 40%;
-    text-decoration:none;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 25%;
-    transition: all 1.5s;
+    @include boton (solid, 20px, 40%, none, flex, center, relative, 25%, all 1.5s)
   }
   
   .boton:hover {

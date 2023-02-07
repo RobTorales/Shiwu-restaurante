@@ -1,6 +1,15 @@
 footer {
-    display: flex;
+    display: $flexible;
     justify-content: center;
+    background-color: $fondo-rojo;
+    color: $cl-white;
+    font-family: $font-family;
+    padding:1%;
+}
+
+.footer{
+    position: $relativo;
+    bottom:-305%;
     background-color: $fondo-rojo;
     color: $cl-white;
     font-family: $font-family;

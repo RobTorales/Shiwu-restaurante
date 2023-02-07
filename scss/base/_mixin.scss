@@ -43,16 +43,44 @@
     grid-row: $gr-row;
 }
 
-@mixin text-area{
-    text-align: start;
-    height:150px;
-    border-radius: 10px;
-    border: 2px solid transparent;
+@mixin boton{
+    border: solid;
+    padding: 20px;
+    width: 40%;
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+    transition: all 1.5s;
 }
 
-@mixin text-area($txt-alg, $alto, $br-radius, $border){
+@mixin boton($solid, $relleno-20, $ancho-40, $tde-none, $flexible, $jc-center, $p-relativo, $left-25, $tr){
+    border: $solid;
+    padding:$relleno-20;
+    width: $ancho-40;
+    text-decoration:$tde-none;
+    display:$flexible;
+    justify-content: $jc-center;
+    position: $p-relativo;
+    left: $left-25;
+    transition: $tr;
+}
+
+@mixin items{
+    position: relative;
+    left: auto;
+    text-align: left;
+    padding: 30px;
+    list-style: none;
+    transition: 0.4s;
+}
+
+@mixin items ($relativo, $izq-auto, $txt-alg, $padding-30, $ls-none, $transicion){
+    position: $relativo;
+    left: $izq-auto;
     text-align: $txt-alg;
-    height:$alto;
-    border-radius: $br-radius;
-    border: $border;
+    padding: $padding-30;
+    list-style: $ls-none;
+    transition: $transicion;
 }

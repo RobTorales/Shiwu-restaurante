@@ -14,7 +14,7 @@
       text-align: center;
       z-index: 100;
       transition: all 0.8s;
-      display: flex;
+      display: $flexible;
       flex-direction: column;
     }
     .nav__a {
@@ -26,7 +26,7 @@
 
     main {
       width: 80%;
-      position: relative;
+      position: $relativo;
       left: 1%;
     }
   }

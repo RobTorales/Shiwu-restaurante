@@ -1,15 +1,15 @@
 main {
     background: rgba(5, 7, 12, 0.4);
-    padding: 5%;
+    padding: $padding;
     margin: 5%;
     width: 40%;
-    position: relative;
+    position: $relativo;
     left: 20%;
   }
   
   .main__div{
-    display: flex;
+    display: $flexible;
     flex-direction: column;
     text-align: left;
-    padding:5%;
+    padding:$padding;
   }
